@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 from tclient import TClient
 
-c = TClient()
+client = TClient()
 
 terms = ['scielo', 'redescielo', 'SciELO', 'scielo brasil']
 
 print "Get tweets... searching by %s" % terms
 
-c.get_tweets(terms, 10000)
+client.get_tweets(terms, 100000000)
 
-c.save('twitterarchive/repo/scielo.txt')
+client.save('twitterarchive/repo/scielo.txt')
 
 print "Done!"

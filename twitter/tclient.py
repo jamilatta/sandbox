@@ -12,10 +12,10 @@ class TClient(object):
     TClient is a Twitter Client interactive with twitter RESTFull API.
     '''
 
-    API_KEY = ""
-    API_SECRET = ""
-    ACCESS_TOKEN = ""
-    ACCESS_TOKEN_SECRET = ""
+    API_KEY = "Mq9UEtEUfSjL6TNKXmCduirfs"
+    API_SECRET = "M28kGBAhCymtiLr1HgPleCsHMyGC4xygYzGT07UvkWTRgstnXj"
+    ACCESS_TOKEN = "561142864-VLTzh4wnFkyf8aVxAhAq6EEGZ5vC3DoboZjClvol"
+    ACCESS_TOKEN_SECRET = "S2s2NSluB6suMulHZG6VMGSDmhCopx1IWX4BQTwsGRtqS"
 
     def __init__(self):
         self.session = OAuth1Session(self.API_KEY,
@@ -33,11 +33,16 @@ class TClient(object):
 
         '''
 
-        max_id = None#the id of the latest tweet.
         num_requests = int(math.ceil(float(quantity)/float(100)))
-        quantity = 100 if quantity > 100 else quantity
+        quantity = MAX_TWEETS if quantity > MAX_TWEETS else quantity
 
         for keyword in keywords:
+
+            #the id of the latest tweet.
+            max_id = None
+
+            print "Get tweets from term: %s" % keyword
+
             for n in range(num_requests):
                 url = BASE_URL + "?q=%s&count=%d" % (keyword, quantity)
 
@@ -64,7 +69,6 @@ class TClient(object):
 
         ```id  date  @user  text```
 
-        Tue Apr 14 22:01:13 +0000 2015
         '''
 
         fp = codecs.open(filename, 'w', 'utf-8')
@@ -76,6 +80,6 @@ class TClient(object):
 
             fp.write('%s  %s  %s    %s\n' % (tweet['id'], fcreated,
                                              '@' + tweet['user']['screen_name'],
-                                             tweet['text'].strip()))
+                                             tweet['text'].replace('\n', ' ')))
 
         fp.close()

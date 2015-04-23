@@ -1,0 +1,24 @@
+Account twwitter to developers:
+https://apps.twitter.com/
+
+User: atta.jamil@gmail.com
+Password: ****
+
+App: tscieloapp
+
+Existem 4 chaves para acesso a API do Twitter:
+
+Consumer Key (API Key) (Chave do consumidor)
+Consumer Secret (API Secret) (Segredo da chave)
+
+Access Token (Chave do token)
+Access Token Secret (Segredo do token)
+
+Token = passe
+
+Utilizando a API do Twitter:
+
+URL: https://api.twitter.com/1.1/search/tweets.json
+
+@param q: abreviação query, é o param de busca.
+@param count: quantidade de tweets retornados por requisição

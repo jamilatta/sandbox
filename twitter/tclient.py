@@ -12,10 +12,10 @@ class TClient(object):
     TClient is a Twitter Client interactive with twitter RESTFull API.
     '''
 
-    API_KEY = "Mq9UEtEUfSjL6TNKXmCduirfs"
-    API_SECRET = "M28kGBAhCymtiLr1HgPleCsHMyGC4xygYzGT07UvkWTRgstnXj"
-    ACCESS_TOKEN = "561142864-VLTzh4wnFkyf8aVxAhAq6EEGZ5vC3DoboZjClvol"
-    ACCESS_TOKEN_SECRET = "S2s2NSluB6suMulHZG6VMGSDmhCopx1IWX4BQTwsGRtqS"
+    API_KEY = ""
+    API_SECRET = ""
+    ACCESS_TOKEN = ""
+    ACCESS_TOKEN_SECRET = ""
 
     def __init__(self):
         self.session = OAuth1Session(self.API_KEY,

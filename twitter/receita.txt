@@ -1,10 +1,10 @@
-Account twwitter to developers:
+Conta de desenvolverdo do twitter:
 https://apps.twitter.com/
 
-User: atta.jamil@gmail.com
-Password: ****
+Usuário: atta.jamil@gmail.com
+Senha: ****
 
-App: tscieloapp
+Aplicação: tscieloapp
 
 Existem 4 chaves para acesso a API do Twitter:
 

@@ -24,14 +24,14 @@ else:
 
             for row in fp:
 
-                doc = {'parts': [str(part) for part in case.parts.all()],
-                       'total_parts': int(case.parts.all().count()),
-                       'client': [str(part) for part in case.parts.all() if part.is_advogated],
-                       'value': case.public_value,
-                       'descriptors': [str(subject) for subject in case.descriptors.all()],
-                       'status': "Inativo" if case.closing_date else "Ativo",
-                       'currency': case.currency.currency_name if case.currency else 'Unknown',
-                       'type_operation': case.type_operation.operation_name if case.type_operation else 'Unknown'}
+                doc = {'parts': row[0],
+                       'total_parts': int(len(row[0].split('##'))),
+                       'client': row[1],
+                       'value': row[2],
+                       'descriptors': row[3].split('##') ,
+                       'status': row[4],
+                       'currency': row[5],
+                       'type_operation': row[6]}
 
                 es_conn.index(index='relevcases', doc_type='relevcase', body=doc)
 

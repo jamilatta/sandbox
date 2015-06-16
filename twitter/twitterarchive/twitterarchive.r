@@ -25,12 +25,12 @@ twitterchivePlots <- function (filename=NULL) {
 
     ## Read in the data and munge around the dates.
     ## I can't promise the fixed widths will always work out for you.
-    message("Reading in data.")
+    message("Lendo dados")
     trim.whitespace <- function(x) gsub("^\\s+|\\s+$", "", x) # Function to trim leading and trailing whitespace from character vectors.
     d <- read.fwf(filename, widths=c(18, 14, 18, 1000), stringsAsFactors=FALSE, comment.char="")
     d <- as.data.frame(sapply(d, trim.whitespace))
     names(d) <- c("id", "datetime", "user", "text")
-    d$user <- sub("@", "", d$user)
+    d$user <- sub("#user_", "@", d$user)
     d$datetime <- as.POSIXlt(d$datetime, format="%b %d %H:%M")
     d$date <- as.Date(d$datetime)
     d$hour <- d$datetime$hour
@@ -38,28 +38,27 @@ twitterchivePlots <- function (filename=NULL) {
     head(d)
 
     ## Number of tweets by date for the last n days
-    recentDays <- 30
-    message(paste("Plotting number of tweets by date in the last", recentDays, "days."))
+    recentDays <- 7
+    message(paste("Número de tweets por dia nos últimos", recentDays, "days."))
     recent <- subset(d, date>=(max(date)-recentDays))
     byDate <- as.data.frame(table(recent$date))
     names(byDate) <- c("date", "tweets")
     png(paste(searchTerm, "barplot-tweets-by-date.png", sep="--"), w=1000, h=700)
     par(mar=c(8.5,4,4,1))
-    with(byDate, barplot(tweets, names=date, col="black", las=2, cex.names=1.2, cex.axis=1.2, mar=c(10,4,4,1), main=paste("Number of Tweets by Date", paste("Term:", searchTerm), sep="\n")))
+    with(byDate, barplot(tweets, names=date, col="red", las=2, cex.names=1.2, cex.axis=1.2, mar=c(10,4,4,1), main=paste("Número de tweets por dia nos últimos 7 dias.", paste("Termos: "), paste(searchTerm), sep="\n")))
     dev.off()
-    # ggplot(byDate) + geom_bar(aes(date, tweets), stat="identity", fill="black") + theme_bw() + ggtitle("Number of Tweets by Date") + theme(axis.text.x=element_text(angle=90, hjust=1))
+
 
     ## Number of tweets by hour
-    message("Plotting number of tweets by hour.")
+    message("Traçando número de tweets por hora")
     byHour <- as.data.frame(table(d$hour))
     names(byHour) <- c("hour", "tweets")
     png(paste(searchTerm, "barplot-tweets-by-hour.png", sep="--"), w=1000, h=700)
-    with(byHour, barplot(tweets, names.arg=hour, col="black", las=1, cex.names=1.2, cex.axis=1.2, main=paste("Number of Tweets by Hour", paste("Term:", searchTerm), paste("Date:", Sys.Date()), sep="\n")))
+    with(byHour, barplot(tweets, names.arg=hour, col="red", las=1, cex.names=1.2, cex.axis=1.2, main=paste("Número de tweets por hora", paste("Termos:"), paste(searchTerm), paste("Data:", Sys.Date()), sep="\n")))
     dev.off()
-    # ggplot(byHour) + geom_bar(aes(hour, tweets), stat="identity", fill="black") + theme_bw() + ggtitle("Number of Tweets by Hour")
 
     ## Barplot of top 20 hashtags
-    message("Plotting top 20 hashtags.")
+    message("Traçando os top 20 hashtags.")
     words <- unlist(strsplit(as.character(d$text), " "))
     head(table(words))
     ht <- words[grep("^#", words)]
@@ -73,12 +72,11 @@ twitterchivePlots <- function (filename=NULL) {
     head(ht)
     png(paste(searchTerm, "barplot-top-hashtags.png", sep="--"), w=1000, h=700)
     par(mar=c(5,10,4,2))
-    with(ht[order(ht$Freq), ], barplot(Freq, names=ht, horiz=T, col="black", las=1, cex.names=1.2, cex.axis=1.2, main=paste("Number of Tweets by Hour", paste("Term:", searchTerm), paste("Date:", Sys.Date()), sep="\n")))
+    with(ht[order(ht$Freq), ], barplot(Freq, names=ht, horiz=T, col="red", las=1, cex.names=1.2, cex.axis=1.2, main=paste("Os top 20 hashtags", paste("Termos: "), paste(searchTerm), paste("Data:", Sys.Date()), sep="\n")))
     dev.off()
-    # ggplot(ht) + geom_bar(aes(ht, Freq), fill = "black", stat="identity") + coord_flip() + theme_bw() + ggtitle("Top hashtags")
 
     ## Top Users
-    message("Plotting most prolific users.")
+    message("Traçando os usuários que mais falam do SciELO no Twitter")
     users <- as.data.frame(table(d$user))
     colnames(users) <- c("user", "tweets")
     users <- users[order(users$tweets, decreasing=T), ]
@@ -87,28 +85,29 @@ twitterchivePlots <- function (filename=NULL) {
     head(users)
     png(paste(searchTerm, "barplot-top-users.png", sep="--"), w=1000, h=700)
     par(mar=c(5,10,4,2))
-    with(users[order(users$tweets), ], barplot(tweets, names=user, horiz=T, col="black", las=1, cex.names=1.2, cex.axis=1.2, main=paste("Most prolific users", paste("Term:", searchTerm), paste("Date:", Sys.Date()), sep="\n")))
+    with(users[order(users$tweets), ], barplot(tweets, names=user, horiz=T, col="red", las=1, cex.names=1.2, cex.axis=1.2, main=paste("Os 20 usuários que mais tweetam.", paste("Termos: "), paste(searchTerm), paste("Data:", Sys.Date()), sep="\n")))
     dev.off()
 
     ## Word clouds
-    message("Plotting a wordcloud.")
+    message("Traçando a nuvem de palavras.")
     words <- unlist(strsplit(as.character(d$text), " "))
     words <- grep("^[A-Za-z0-9]+$", words, value=T)
     words <- tolower(words)
     words <- words[-grep("^[rm]t$", words)] # remove "RT"
-    words <- words[!(words %in% stopwords("en"))] # remove stop words
-    words <- words[!(words %in% c("y", "la", "en", "el", "mt", "que", "con", "por", "como", "com", "para", "da", "los", "las", "o", "e", "rt", "via", "using", 1:9))] # remove RTs, MTs, via, and single digits.
+    words <- words[!(words %in% stopwords("pt"))] # remove pt stop words
+    words <- words[!(words %in% stopwords("en"))] # remove en stop words
+    words <- words[!(words %in% stopwords("es"))] # remove es stop words
+    words <- words[!(words %in% c("rt", "via", "using", "sobre", 1:9))] # remove RTs, MTs, via, and single digits.
     wordstable <- as.data.frame(table(words))
     wordstable <- wordstable[order(wordstable$Freq, decreasing=T), ]
     wordstable <- wordstable[-1, ] # remove the hashtag you're searching for? need to functionalize this.
     head(wordstable)
     png(paste(searchTerm, "wordcloud.png", sep="--"), w=800, h=800)
     wordcloud(wordstable$words, wordstable$Freq, scale = c(8, .2), min.freq = 3, max.words = 200, random.order = FALSE, rot.per = .15, colors = brewer.pal(8, "Dark2"))
-    #mtext(paste(paste("Term:", searchTerm), paste("Date:", Sys.Date()), sep=";"), cex=1.5)
     dev.off()
 
-    message(paste(searchTerm, ": All done!\n"))
+    message(paste(searchTerm, ": Feito!\n"))
 }
 
-filelist <- list("scielo.txt")
+filelist <- list("somatic_embryogenesis.txt")
 lapply(filelist, twitterchivePlots)

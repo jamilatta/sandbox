@@ -79,7 +79,7 @@ class TClient(object):
             fcreated = '%s  %s %s' % (screated[1], screated[2], screated[3][0:5])
 
             fp.write('%s  %s  %s    %s\n' % (tweet['id'], fcreated,
-                                             '@' + tweet['user']['screen_name'],
+                                             '#user_' + tweet['user']['screen_name'],
                                              tweet['text'].replace('\n', ' ')))
 
         fp.close()

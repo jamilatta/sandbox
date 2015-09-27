@@ -62,9 +62,9 @@ Nos dados do ENEM para 2011 existe o arquivo de dados DADOS_ENEM_2011.txt com 5.
 
 Para nossa analise consideramos a quantidade de inscritos declarado no arquivo de questionário sócio econômico.
 
-**Portanto estamos avaliando 5.366.948 inscritos no exame de 2011.**
+Portanto estamos avaliando **5.366.948** inscritos no exame de 2011.
 
-**Removendo da analise os inscritos que não tem notas(possivelmente inscritos que não realizam a prova), obtemos para analise uma somatório de 3.998.307**
+Removendo da analise os inscritos que não tem notas(possivelmente inscritos que não realizam a prova), obtemos para analise uma somatório de **3.998.307.**
 
 Existe uma quantidade grande de inscritos sem nota
 

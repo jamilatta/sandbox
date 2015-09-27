@@ -90,7 +90,7 @@ Considerando os itens acima citadas, utilizamos apenas um script Python que cham
 Respostas para as perguntas de forma textual:
 ===========================================
 
-Pergunta 1:
+**Pergunta 1:**
    Resultado para a soma das notas por área do conhecimento dos **3.670.089** inscritos analisados:
    
       * Ciências Humanas: 1724870640.95/3.670.089 = 469,9806 
@@ -103,7 +103,7 @@ Pergunta 1:
    
    *Observando a média da redação verificamos que é uma nota bastante significativa.*
 
-Pergunta 2: 
+**Pergunta 2:** 
    Para responder essa pergunta decidimos fazer uma soma das notas de todas as área do conhecimento divido pela quantidade de alunos. Lembrando que estamos avaliando somente alunos que cursaram somente escola pública e particular durante todo o ensino médio:
    
    * Para alunos de escola pública

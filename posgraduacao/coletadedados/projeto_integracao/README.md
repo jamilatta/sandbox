@@ -3,7 +3,7 @@ Projeto de coleta de dados ENEM
 
 Coletar os dados de algum ano do ENEM e realizar perguntas para esses dados. Após essas perguntas desenhar grafos em que seja possível responder as perguntas.
 
-Primeiro passos
+Primeiros passos
 ==============
 
 Coletar os dados de 2011 no site do INEP: http://portal.inep.gov.br/basica-levantamentos-acessar
@@ -87,7 +87,7 @@ Também diescartamos o uso de qualquer framework ou base de dados, já que acret
 
 Considerando os itens acima citadas, utilizamos apenas um script Python que chamamos de **analysis.py** para respondermos as perguntas.
 
-Resposta para as perguntas de forma textual:
+Respostas para as perguntas de forma textual:
 ===========================================
 
 Pergunta 1:

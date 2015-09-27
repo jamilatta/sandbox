@@ -1,7 +1,7 @@
 Projeto de coleta de dados ENEM
 ===============================
 
-Coleta os dados de algum ano do ENEM e realizarmos perguntas para esses dados. Após essas perguntas desenhar grafos em que seja possível responder as perguntas.
+Coletar os dados de algum ano do ENEM e realizar perguntas para esses dados. Após essas perguntas desenhar grafos em que seja possível responder as perguntas.
 
 Primeiro passos
 ==============
@@ -64,7 +64,9 @@ Para nossa analise consideramos a quantidade de inscritos declarado no arquivo d
 
 Portanto estamos avaliando **5.366.948** inscritos no exame de 2011.
 
-Removendo da analise os inscritos que não tem notas(possivelmente inscritos que não realizam a prova), obtemos para analise uma somatório de **3.998.307.**
+Removendo da analise os inscritos que não tem notas(possivelmente inscritos que não realizam a prova), obtemos para analise uma somatório de **3.670.089.**
+
+Do total de inscritos no ano de 2011 apenas 68.38316674579295% contém notas. 
 
 Existe uma quantidade grande de inscritos sem nota
 

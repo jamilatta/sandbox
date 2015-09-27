@@ -64,6 +64,8 @@ Para nossa analise consideramos a quantidade de inscritos declarado no arquivo d
 
 **Portanto estamos avaliando 5.366.948 inscritos no exame de 2011.**
 
+**Removendo da analise os incritos que não tem notas(possivelmente inscritos que não realizam a prova), obtemos para analise uma somatório de 3.998.307**
+
 Existe uma quantidade grande de inscritos sem nota
 
 

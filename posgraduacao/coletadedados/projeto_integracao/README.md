@@ -107,18 +107,46 @@ Respostas para as perguntas de forma textual:
    Para responder essa pergunta decidimos fazer uma soma das notas de todas as área do conhecimento dividido pela quantidade de alunos. Lembrando que estamos avaliando somente alunos que cursaram somente escola pública e particular durante todo o ensino médio:
    
    * Para alunos de escola pública
-      * Quantidade de alunos que estudaram somente em escola pública durante todo o ensino médio: 2.831.627
-      * Somatório das notas das provas de todas as área: 1.35396093728e+16
-      * Média da nota para os alunos da escola pública: 478.1565288
+      * Quantidade de alunos que estudaram somente em escola pública durante todo o ensino médio: 2.831.627 (realizaram o ENEM)
+      * Somatório das notas das provas de todas as área: 6977261965.37
+      * Média da nota para os alunos da escola pública por prova: 492.809396532
+      * Média para as 5 área do conehcimento: 2464.04698266
    
    * Para alunos de escola privada:
-      * Quantidade de alunos que estudaram somente em escola privada durante todo o ensino médio: 609.235
-      * Somatório das notas das provas de todas as área: 2.72031081064e+15
-      * Média da nota para os alunos da escola pública: 446.5125625
+      * Quantidade de alunos que estudaram somente em escola privada durante todo o ensino médio: 609.235 (realizaram o ENEM)
+      * Somatório das notas das provas de todas as área: 1766473618.72
+      * Média da nota para os alunos da escola pública por prova: 579.898928565
+      * Média para as 5 área do conehcimento: 2899.49464282
    
-Verificamos dessa forma que o ensino público teve um aproveitamento maior que o ensino privado em: 7.17488789237669%
+Verificamos dessa forma que o ensino privado teve um aproveitamento maior que o ensino público em: 17.65422077922078%
 
 Verificamos também que os inscritos são em sua maioria provinientes do ensino público.
+
+**Pergunta 3:**
+   Para responder essa pergunta realizamos o mesmo procedimento da 2 pergunta, soma das notas de todas as área do conhecimento dividido pela quantidade de alunos. 
+   
+   * Para alunos em que os pais não estudaram:
+      * Quantidade de alunos: 262.862
+      * Somatório das notas das provas de todas as área: 612914247.3
+      * Média da nota para os alunos por prova: 466.339179722
+      * Média da nota para as 5 área do conhecimento: 2331.69589861
+      
+   
+   * Para alunos em que os pais estudaram o ensino médio
+      * Quantidade de alunos: 714.933
+      * Somatório das notas das provas de todas as área: 1876766310.7
+      * Média da nota para os alunos por prova: 525.018794964
+      * Média da nota para as 5 área do conhecimento: 2625.09397482
+
+   
+   * Para alunos em que os pais estudaram o ensino superior 
+      * Quantidade de alunos: 271.371
+      * Somatório das notas das provas de todas as área: 781606770.2
+      * Média da nota para os alunos por prova: 576.042959786
+      * Média da nota para as 5 área do conhecimento: 2880.21479893
+   
+   Concluirmos que a escolaridade dos pais esta diretamente porporcional a nota dos alunos no ENEM para o ano de 2011.
+   
 
 Resposta para as perguntas em grafos:
 ===================================

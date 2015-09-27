@@ -104,7 +104,7 @@ Respostas para as perguntas de forma textual:
    *Observando a média da redação verificamos que é uma nota bastante significativa.*
 
 **Pergunta 2:** 
-   Para responder essa pergunta decidimos fazer uma soma das notas de todas as área do conhecimento divido pela quantidade de alunos. Lembrando que estamos avaliando somente alunos que cursaram somente escola pública e particular durante todo o ensino médio:
+   Para responder essa pergunta decidimos fazer uma soma das notas de todas as área do conhecimento dividido pela quantidade de alunos. Lembrando que estamos avaliando somente alunos que cursaram somente escola pública e particular durante todo o ensino médio:
    
    * Para alunos de escola pública
       * Quantidade de alunos que estudaram somente em escola pública durante todo o ensino médio: 2.831.627

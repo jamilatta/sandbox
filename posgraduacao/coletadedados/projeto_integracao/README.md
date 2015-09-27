@@ -53,6 +53,8 @@ Analise dos dados em relação as perguntas:
 
 * É preciso pegar as notas dos incritos em que os pais não estudaram, estudaram o ensino médio e o ensino superiror.
 
+* Todos os inscritos que não tem notas para as áreas avaliadas incluindo a redação foram excluidos dessa analise.
+
 Problemas enfrentados para analise dos dados:
 ============================================
 

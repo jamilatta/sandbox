@@ -90,6 +90,18 @@ Considerando os itens acima citadas, utilizamos apenas um script Python que cham
 Resposta para as perguntas de forma textual:
 ===========================================
 
+Resultado para a soma das notas por área do conhecimento dos **3.670.089** inscritos analisados:
+
+   * Ciências Humanas e suas Tecnologias: 1724870640.95/3.670.089 = 469,9806 
+   * Ciências da Natureza e suas Tecnologias: 1768483998.42/3.670.089 = 481,8640
+   * Linguagens, Códigos e suas Tecnologias e Redação: 1925997050.21/3.670.089 = 524,7821 
+   * Matemática e suas Tecnologias: 1913624930.41/3.670.089 = 521,4110
+   * Redação 2000938702.0/3.670.089 = 545,2016
+
+De forma simples e objetiva conseguimos afirmar que a pior área foi ``Ciências Humanas e suas Tecnologias`` e que a melhor área foi ``Linguagens, Códigos e suas Tecnologias e Redação``
+
+*Observamos que a nota da redação foi uma nota acima das notas das outra área.*
+
 Resposta para as perguntas em grafo:
 ===================================
 

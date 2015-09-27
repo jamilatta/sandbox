@@ -64,7 +64,7 @@ Para nossa analise consideramos a quantidade de inscritos declarado no arquivo d
 
 Portanto estamos avaliando **5.366.948** inscritos no exame de 2011.
 
-Removendo da analise os inscritos que não tem notas(possivelmente inscritos que não realizam a prova), obtemos para analise uma somatório de **3.670.089.**
+Removendo da analise os inscritos que não tem notas(possivelmente inscritos que não realizam a prova), obtemos para analise uma somatório de **3.670.089**(base de cálculo para as médias apresentadas).
 
 Do total de inscritos no ano de 2011 apenas 68.38316674579295% contém notas. 
 

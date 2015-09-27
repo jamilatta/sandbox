@@ -8,7 +8,7 @@ Primeiro passos
 
 Coletar os dados de 2011 no site do INEP: http://portal.inep.gov.br/basica-levantamentos-acessar
 
-Link direto para o arquivo.zip: http://download.inep.gov.br/microdados/microdados_enem2011.zip
+Link direto para o arquivo.zip: http://download.inep.gov.br/microdados/microdados_enem2011.zip (Para reproduzir essa analise é necessário baixa este arquivo no site do INEP)
 
 Arquivo com ~6GB
 

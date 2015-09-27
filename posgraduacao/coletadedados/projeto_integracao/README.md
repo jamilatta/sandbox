@@ -13,6 +13,8 @@ Formato do arquivo do ENEM ano de 2011:
 </code>
 </pre>
 
+**No arquivo de metadados é colocado o início e fim das colunas para cada dados**
+
 Perguntas
 =========
 

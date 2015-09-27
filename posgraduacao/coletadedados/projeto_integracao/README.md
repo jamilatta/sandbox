@@ -30,13 +30,13 @@ Analise dos dados em relação as perguntas:
 
 * Para responder essa pergunta é preciso conhecer as área do conhecimento avaliadas no ENEM, realizar uma soma das notas para cada área e dividir pelo total de inscritos.
 
-* Áreas do conhecimento avaliadas no ENEM:
-    * Ciências Humanas e suas Tecnologias (NU_NT_CN)
-    * Ciências da Natureza e suas Tecnologias (NU_NT_CH)
-    * Linguagens, Códigos e suas Tecnologias e Redação (NU_NT_LC)
-    * Matemática e suas Tecnologias. (NU_NT_MT)
+    * Áreas do conhecimento avaliadas no ENEM:
+        * Ciências Humanas e suas Tecnologias (NU_NT_CN)
+        * Ciências da Natureza e suas Tecnologias (NU_NT_CH)
+        * Linguagens, Códigos e suas Tecnologias e Redação (NU_NT_LC)
+        * Matemática e suas Tecnologias. (NU_NT_MT)
 
-**Dentre essas ainda existe a nota da redação: NU_NOTA_REDACAO**
+    **Dentre essas ainda existe a nota da redação: NU_NOTA_REDACAO**
 
 * Para responder a segunda pergunta é necessário realizar a soma das notas dos alunos que somente estudaram no ensino médio em escola pública e a soma das notas dos alunos que estudaram somente e escola particular.
 

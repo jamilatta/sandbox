@@ -53,6 +53,8 @@ Para nossa analise consideramos a quantidade de inscritos declarado no arquivo d
 
 **Portanto estamos avaliando 5.366.948 inscritos no exame de 2011.**
 
+Existe uma quantidade grande de inscritos sem nota
+
 
 Ferramentas para analise:
 ========================
@@ -67,6 +69,8 @@ Esse teste tinha como base avaliar o tempo que o C e o Python gasta para ler um 
 Considerando a facilidade de implementação descartamos o uso de C para essa avaliação, com a justificativa que a melhoria no tempo de leitura arquivo não era tão significativa quanto a facilidade da linguagem Python para a implementação.
 
 Também diescartamos o uso de qualquer framework ou base de dados, já que acretidamos que uma arquivo que demora ~3min para ser lido em uma máquina caseira/notebook não se enquadra no proposito da maioria desses frameworks.
+
+Considerando as cosideração acima citadas, utilizamos apenas um script Python que chamamos de **analysis.py** para respondermos as perguntas.
 
 Resposta para as perguntas de forma textual:
 ===========================================

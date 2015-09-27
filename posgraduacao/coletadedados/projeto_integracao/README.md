@@ -13,7 +13,7 @@ Formato do arquivo do ENEM ano de 2011:
 </code>
 </pre>
 
-**No arquivo de metadados é colocado o início e fim das colunas para cada dados**
+**No arquivo de metadados é colocado o início e fim das colunas para cada dado**
 
 Perguntas
 =========
@@ -43,6 +43,42 @@ Analise dos dados em relação as perguntas:
 * Para responder a segunda pergunta é necessário realizar a soma das notas dos alunos que somente estudaram no ensino médio em escola pública e a soma das notas dos alunos que estudaram somente e escola particular.
 
 * É preciso pegar as notas dos incritos em que os pais não estudaram, estudaram o ensino médio e o ensino superiror.
+
+Problemas enfrentados para analise dos dados:
+============================================
+
+Nos dados do ENEM para 2011 existe o arquivo de dados DADOS_ENEM_2011.txt com 5.380.856 linhas e o arquivo de questionário sócio econômico (QUESTIONARIO_SOCIO_ECONOMICO_ENEM_2011.txt) comtém 5.366.948 linhas o que demostrando inconsistências.
+
+Para nossa analise consideramos a quantidade de inscritos declarado no arquivo de questionário sócio econômico.
+
+**Portanto estamos avaliando 5.366.948 inscritos no exame de 2011.**
+
+Resposta para as perguntas de forma textual:
+===========================================
+
+Resposta para as perguntas em grafo:
+===================================
+
+Para responder as perguntas em grafo encontramos uma dificuldade, pois a 1 e 2 pergunta utiliza média que é um dado que não está nos dados portanto tivemos que computar essa métrica e depois pensarmos em gerar um grafo para responder a pergunta, segue:
+
+
+Grafo para pergunta 1:
+
+
+Grafo para pergunta 2:
+
+
+Grafo para pergunta 3:
+
+
+
+
+
+
+
+
+
+
 
 
 

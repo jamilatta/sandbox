@@ -36,7 +36,7 @@ Analise dos dados em relação as perguntas:
     * Linguagens, Códigos e suas Tecnologias e Redação (NU_NT_LC)
     * Matemática e suas Tecnologias. (NU_NT_MT)
 
-*Dentre essas ainda existe a nota da redação: NU_NOTA_REDACAO*
+**Dentre essas ainda existe a nota da redação: NU_NOTA_REDACAO**
 
 * Para responder a segunda pergunta é necessário realizar a soma das notas dos alunos que somente estudaram no ensino médio em escola pública e a soma das notas dos alunos que estudaram somente e escola particular.
 

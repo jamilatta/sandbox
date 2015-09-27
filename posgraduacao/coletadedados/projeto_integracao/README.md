@@ -70,7 +70,7 @@ Considerando a facilidade de implementação descartamos o uso de C para essa av
 
 Também diescartamos o uso de qualquer framework ou base de dados, já que acretidamos que uma arquivo que demora ~3min para ser lido em uma máquina caseira/notebook não se enquadra no proposito da maioria desses frameworks.
 
-Considerando as cosideração acima citadas, utilizamos apenas um script Python que chamamos de **analysis.py** para respondermos as perguntas.
+Considerando os itens acima citadas, utilizamos apenas um script Python que chamamos de **analysis.py** para respondermos as perguntas.
 
 Resposta para as perguntas de forma textual:
 ===========================================

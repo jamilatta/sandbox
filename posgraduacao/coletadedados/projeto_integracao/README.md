@@ -30,6 +30,13 @@ Analise dos dados em relação as perguntas:
 
 * Para responder essa pergunta é preciso conhecer as área do conhecimento avaliadas no ENEM, realizar uma soma das notas para cada área e dividir pelo total de inscritos.
 
+Áreas do conhecimento avaliadas no ENEM:
+    * Ciências Humanas e suas Tecnologias
+    * Ciências da Natureza e suas Tecnologias
+    * Linguagens, Códigos e suas Tecnologias e Redação
+    * Matemática e suas Tecnologias.
+
+
 * Para responder a segunda pergunta é necessário realizar a soma das notas dos alunos que somente estudaram no ensino médio em escola pública e a soma das notas dos alunos que estudaram somente e escola particular.
 
 * É preciso pegar as notas dos incritos em que os pais não estudaram, estudaram o ensino médio e o ensino superiror.

@@ -13,7 +13,7 @@ Formato do arquivo do ENEM ano de 2011:
 </code>
 </pre>
 
-**No arquivo de metadados é colocado o início e fim das colunas para cada dado**
+**No arquivo de metadados (Dicion†rio_Microdados_ENEM_2011.xlsx) é colocado o início e fim das colunas para cada dado**
 
 Perguntas
 =========
@@ -59,7 +59,7 @@ Ferramentas para analise:
 
 Realizamos um teste de benchmarch entre uma linguagem de mais baixo nível com uma linguagem de mais alto nível, são elas C e Python, respectivamente:
 
-Esse teste tinha como base avaliar o tempo que o C e o python gasta para ler um arquivo de ~6 milhoes de linhas.
+Esse teste tinha como base avaliar o tempo que o C e o Python gasta para ler um arquivo de ~6 milhoes de linhas.
 
 * **Python 2.745 min**
 * **C 2.598 min**

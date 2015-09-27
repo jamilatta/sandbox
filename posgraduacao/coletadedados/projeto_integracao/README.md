@@ -104,8 +104,21 @@ Pergunta 1:
    *Observando a média da redação verificamos que é uma nota bastante significativa.*
 
 Pergunta 2: 
+   Para responder essa pergunta decidimos fazer uma soma das notas de todas as área do conhecimento divido pela quantidade de alunos. Lembrando que estamos avaliando somente alunos que cursaram somente escola pública e particular durante todo o ensino médio:
    
+   * Para alunos de escola pública
+      * Quantidade de alunos que estudaram somente em escola pública durante todo o ensino médio: 2.831.627
+      * Somatório das notas das provas de todas as área: 1.35396093728e+16
+      * Média da nota para os alunos da escola pública: 478.1565288
+   
+   * Para alunos de escola privada:
+      * Quantidade de alunos que estudaram somente em escola privada durante todo o ensino médio: 609.235
+      * Somatório das notas das provas de todas as área: 2.72031081064e+15
+      * Média da nota para os alunos da escola pública: 446.5125625
+   
+Verificamos dessa forma que o ensino público teve um aproveitamento maior que o ensino privado em: 7.17488789237669%
 
+Verificamos também que os inscritos são em sua maioria provinientes do ensino público.
 
 Resposta para as perguntas em grafos:
 ===================================

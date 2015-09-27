@@ -70,7 +70,7 @@ Existe uma quantidade grande de inscritos sem nota
 Ferramentas para analise:
 ========================
 
-Realizamos um teste de benchmarch entre uma linguagem de mais baixo nível com uma linguagem de mais alto nível, são elas C e Python, respectivamente:
+Realizamos um teste de benchmark entre uma linguagem de mais baixo nível com uma linguagem de mais alto nível, são elas C e Python, respectivamente:
 
 Esse teste tinha como base avaliar o tempo que o C e o Python gasta para ler um arquivo de ~6 milhoes de linhas.
 

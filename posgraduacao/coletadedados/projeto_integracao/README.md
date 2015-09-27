@@ -53,6 +53,21 @@ Para nossa analise consideramos a quantidade de inscritos declarado no arquivo d
 
 **Portanto estamos avaliando 5.366.948 inscritos no exame de 2011.**
 
+
+Ferramentas para analise:
+========================
+
+Realizamos um teste de benchmarch entre uma linguagem de mais baixo nível com uma linguagem de mais alto nível, são elas C e Python, respectivamente:
+
+Esse teste tinha como base avaliar o tempo que o C e o python gasta para ler um arquivo de ~6 milhoes de linhas.
+
+**Python 2.745 min**
+**C 2.598 min**
+
+Considerando a facilidade de implementação descartamos o uso de C para essa avaliação, com a justificativa que a melhoria no tempo de leitura arquivo não era tão significativa quanto a facilidade da linguagem Python para a implementação.
+
+Também diescartamos o uso de qualquer framework ou base de dados, já que acretidamos que uma arquivo que demora ~3min para ser lido em uma máquina caseira/notebook não se enquadra no proposito da maioria desse frameworks.
+
 Resposta para as perguntas de forma textual:
 ===========================================
 

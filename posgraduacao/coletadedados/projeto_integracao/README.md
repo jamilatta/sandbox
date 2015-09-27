@@ -28,17 +28,11 @@ Após a coleta de forma manual tivemos que definir três perguntas para o dados,
 Analise dos dados em relação as perguntas:
 ==========================================
 
-1. pergunta
+* Para responder essa pergunta é preciso conhecer as área do conhecimento avaliadas no ENEM, realizar uma soma das notas para cada área e dividir pelo total de inscritos.
 
-Para responder essa pergunta é preciso conhecer as área do conhecimento avaliadas no ENEM, realizar uma soma das notas para cada área e dividir pelo total de inscritos.
+* Para responder a segunda pergunta é necessário realizar a soma das notas dos alunos que somente estudaram no ensino médio em escola pública e a soma das notas dos alunos que estudaram somente e escola particular.
 
-2. pergunta
-
-Para responder a segunda pergunta é necessário realizar a soma das notas dos alunos que somente estudaram no ensino médio em escola pública e a soma das notas dos alunos que estudaram somente e escola particular.
-
-3. pergunta
-
-É preciso pegar as notas dos incritos em que os pais não estudaram, estudaram o ensino médio e o ensino superiror.
+* É preciso pegar as notas dos incritos em que os pais não estudaram, estudaram o ensino médio e o ensino superiror.
 
 
 

@@ -132,14 +132,14 @@ Verificamos também que os inscritos são em sua maioria provinientes do ensino 
       * Média da nota para as 5 área do conhecimento: 2331.69589861
       
    
-   * Para alunos em que os pais estudaram o ensino médio
+   * Para alunos em que os pais estudaram o ensino médio:
       * Quantidade de alunos: 714.933
       * Somatório das notas das provas de todas as área: 1876766310.7
       * Média da nota para os alunos por prova: 525.018794964
       * Média da nota para as 5 área do conhecimento: 2625.09397482
 
    
-   * Para alunos em que os pais estudaram o ensino superior 
+   * Para alunos em que os pais estudaram o ensino superior: 
       * Quantidade de alunos: 271.371
       * Somatório das notas das provas de todas as área: 781606770.2
       * Média da nota para os alunos por prova: 576.042959786

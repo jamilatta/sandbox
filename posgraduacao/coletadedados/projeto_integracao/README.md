@@ -1,9 +1,6 @@
 Projeto de coleta de dados ENEM
 ===============================
 
-Proposta:
-========
-
 Coleta os dados de algum ano do ENEM e realizarmos perguntas para esses dados. Após essas perguntas desenhar grafos em que seja possível responder as perguntas.
 
 Primeiro passos

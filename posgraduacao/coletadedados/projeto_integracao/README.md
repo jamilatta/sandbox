@@ -41,7 +41,7 @@ Analise dos dados em relação as perguntas:
 
 * Para responder essa pergunta é preciso conhecer as área do conhecimento avaliadas no ENEM, realizar uma soma das notas para cada área e dividir pelo total de inscritos.
 
-    * Áreas do conhecimento avaliadas no ENEM:
+    * Áreas do conhecimento avaliadas no ENEM:in
         * Ciências Humanas e suas Tecnologias (NU_NT_CN)
         * Ciências da Natureza e suas Tecnologias (NU_NT_CH)
         * Linguagens, Códigos e suas Tecnologias e Redação (NU_NT_LC)
@@ -51,7 +51,7 @@ Analise dos dados em relação as perguntas:
 
 * Para responder a segunda pergunta é necessário realizar a soma das notas dos alunos que somente estudaram no ensino médio em escola pública e a soma das notas dos alunos que estudaram somente e escola particular.
 
-* É preciso pegar as notas dos incritos em que os pais não estudaram, estudaram o ensino médio e o ensino superiror.
+* É preciso pegar as notas dos inscritos em que os pais não estudaram, estudaram o ensino médio e o ensino superiror.
 
 * Todos os inscritos que não tem notas para as áreas avaliadas incluindo a redação foram excluidos dessa analise.
 
@@ -64,7 +64,7 @@ Para nossa analise consideramos a quantidade de inscritos declarado no arquivo d
 
 **Portanto estamos avaliando 5.366.948 inscritos no exame de 2011.**
 
-**Removendo da analise os incritos que não tem notas(possivelmente inscritos que não realizam a prova), obtemos para analise uma somatório de 3.998.307**
+**Removendo da analise os inscritos que não tem notas(possivelmente inscritos que não realizam a prova), obtemos para analise uma somatório de 3.998.307**
 
 Existe uma quantidade grande de inscritos sem nota
 

@@ -1,11 +1,21 @@
 Projeto de coleta de dados ENEM
 ===============================
 
-Coletar os dados de 2011 no site do ENEM
+Proposta:
+========
+
+Coleta os dados de algum ano do ENEM e realizarmos perguntas para esses dados. Após essas perguntas desenhar grafos em que seja possível responder as perguntas.
+
+Primeiro passos
+==============
+
+Coletar os dados de 2011 no site do INEP: http://portal.inep.gov.br/basica-levantamentos-acessar
+
+Link direto para o arquivo.zip: http://download.inep.gov.br/microdados/microdados_enem2011.zip
 
 Arquivo com ~6GB
 
-Formato do arquivo do ENEM ano de 2011:
+Formato do arquivo do dados ENEM ano de 2011:
 
 <pre>
 <code>
@@ -15,7 +25,9 @@ Formato do arquivo do ENEM ano de 2011:
 
 **No arquivo de metadados (Dicion†rio_Microdados_ENEM_2011.xlsx) é colocado o início e fim das colunas para cada dado (arquivo posicional)**
 
-Perguntas
+**Dentro do .zip disponibilizado pelo INEP existe o arquivo .xlsx com o dicionário de dados(metadados).**
+
+Definir as Perguntas
 =========
 
 Após a coleta de forma manual tivemos que definir três perguntas para o dados, segue:

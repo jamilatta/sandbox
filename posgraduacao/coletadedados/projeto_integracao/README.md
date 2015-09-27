@@ -42,10 +42,10 @@ Analise dos dados em relação as perguntas:
 * Para responder essa pergunta é preciso conhecer as área do conhecimento avaliadas no ENEM, realizar uma soma das notas para cada área e dividir pelo total de inscritos.
 
     * Áreas do conhecimento avaliadas no ENEM:in
-        * Ciências Humanas e suas Tecnologias (NU_NT_CN)
-        * Ciências da Natureza e suas Tecnologias (NU_NT_CH)
-        * Linguagens, Códigos e suas Tecnologias e Redação (NU_NT_LC)
-        * Matemática e suas Tecnologias. (NU_NT_MT)
+        * Ciências Humanas (NU_NT_CN)
+        * Ciências da Natureza (NU_NT_CH)
+        * Linguagens e Códigos (NU_NT_LC)
+        * Matemática (NU_NT_MT)
 
     **Dentre essas ainda existe a nota da redação: NU_NOTA_REDACAO**
 
@@ -93,10 +93,10 @@ Resposta para as perguntas de forma textual:
 Pergunta 1:
    Resultado para a soma das notas por área do conhecimento dos **3.670.089** inscritos analisados:
    
-      * Ciências Humanas e suas Tecnologias: 1724870640.95/3.670.089 = 469,9806 
-      * Ciências da Natureza e suas Tecnologias: 1768483998.42/3.670.089 = 481,8640
-      * Linguagens, Códigos e suas Tecnologias e Redação: 1925997050.21/3.670.089 = 524,7821 
-      * Matemática e suas Tecnologias: 1913624930.41/3.670.089 = 521,4110
+      * Ciências Humanas: 1724870640.95/3.670.089 = 469,9806 
+      * Ciências da Natureza: 1768483998.42/3.670.089 = 481,8640
+      * Linguagens e Códigos: 1925997050.21/3.670.089 = 524,7821 
+      * Matemática: 1913624930.41/3.670.089 = 521,4110
       * Redação 2000938702.0/3.670.089 = 545,2016
    
    De forma simples e objetiva conseguimos afirmar que a pior área foi ``Ciências Humanas e suas Tecnologias`` e que a melhor área foi ``Linguagens, Códigos e suas Tecnologias e Redação``

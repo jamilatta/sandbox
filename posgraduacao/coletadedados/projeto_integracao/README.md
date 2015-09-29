@@ -22,7 +22,6 @@ Formato do arquivo do dados ENEM ano de 2011:
 
 **No arquivo de metadados (Dicionario_Microdados_ENEM_2011.xlsx) é colocado o início e fim das colunas para cada dado (arquivo posicional).**
 
-**Dentro do .zip disponibilizado pelo INEP existe o arquivo .xlsx com o dicionário de dados(metadados).**
 
 Definir as Perguntas
 ==================
@@ -39,7 +38,7 @@ Após a coleta de forma manual tivemos que definir três perguntas para os dados
 Análise dos dados em relação as perguntas:
 ==========================================
 
-* Para responder essa pergunta é preciso conhecer as áreas de conhecimentos avaliadas no ENEM, realizar uma soma das notas para cada área e dividir pelo total de inscritos.
+* Para responder a primeira pergunta é preciso conhecer as áreas de conhecimentos avaliadas no ENEM, realizar uma soma das notas para cada área e dividir pelo total de inscritos.
 
     * Áreas de conhecimentos avaliadas no ENEM:
         * Ciências Humanas (NU_NT_CN)
@@ -58,18 +57,13 @@ Análise dos dados em relação as perguntas:
 Problemas enfrentados para análise dos dados:
 ============================================
 
-Nos dados do ENEM para 2011 existe o arquivo de dados DADOS_ENEM_2011.txt com 5.380.856 linhas e o arquivo de questionário sócio econômico (QUESTIONARIO_SOCIO_ECONOMICO_ENEM_2011.txt) comtém 5.366.948 linhas o que demostra inconsistências.
+Nos dados do ENEM para 2011 existe o arquivo de dados DADOS_ENEM_2011.txt com 5.380.856 linhas e o arquivo de questionário sócio econômico (QUESTIONARIO_SOCIO_ECONOMICO_ENEM_2011.txt) contém 5.366.948 linhas.
 
-Para nossa análise consideramos a quantidade de inscritos declarado no arquivo de questionário sócio econômico.
+Para nossa análise consideramos a quantidade de inscritos informado no arquivo de questionário sócio econômico, portanto estamos avaliando **5.366.948** inscritos no exame de 2011.
 
-Portanto estamos avaliando **5.366.948** inscritos no exame de 2011.
+Removendo da análise os inscritos que não tiveram notas(possivelmente inscritos que não realizam a prova), obtemos para análise uma somatória de **3.670.089** (base de cálculo para as médias apresentadas).
 
-Removendo da análise os inscritos que não tiveram notas(possivelmente inscritos que não realizam a prova), obtemos para análise um somatório de **3.670.089** (base de cálculo para as médias apresentadas).
-
-Do total de inscritos no ano de 2011 apenas 68.38316674579295% contém notas. 
-
-Existe uma grande quantidade de inscritos sem nota.
-
+Do total de inscritos no ano de 2011 apenas 68.38316674579295% contém notas.
 
 Ferramentas para análise:
 ========================
@@ -81,11 +75,11 @@ Esse teste tinha como base avaliar o tempo que o C e o Python gastam para ler um
 * **Python 2.745 min**
 * **C 2.598 min**
 
-Considerando a facilidade de implementação descartamos o uso de C para essa avaliação, com a justificativa que a melhoria no tempo de leitura arquivo não era tão significativa quanto a facilidade da linguagem Python para a implementação.
+Considerando a facilidade de implementação descartamos o uso de Python para essa avaliação, com a justificativa que a melhoria no tempo de leitura do arquivo não era tão significativa quanto a facilidade da linguagem Python para a implementação.
 
-Também descartarmos o uso de qualquer framework ou base de dados, já que acretidamos que uma arquivo que demora ~3min para ser lido em uma máquina caseira/notebook não se enquadra no proposito da maioria desses frameworks.
+Também descartarmos o uso de qualquer framework ou base de dados, já que acretidamos que uma arquivo que demora ~3 min para ser lido em uma máquina caseira/notebook não se enquadra no proposito da maioria desses frameworks.
 
-Considerando os itens acima citadas, utilizamos apenas um script Python que chamamos de **analysis.py** para respondermos as perguntas.
+Considerando os itens acima, utilizamos apenas 2 scripts Python que chamamos de **tranform.py** e **analysis.py** para respondermos as perguntas.
 
 Respostas para as perguntas de forma textual:
 ===========================================

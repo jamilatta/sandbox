@@ -158,6 +158,7 @@ Grafo para pergunta 2:
 
 Grafo para pergunta 3:
 
+![question3](https://raw.githubusercontent.com/jamilatta/sandbox/master/posgraduacao/coletadedados/projeto_integracao/question3.png)
 
 Conclusões:
 ==========

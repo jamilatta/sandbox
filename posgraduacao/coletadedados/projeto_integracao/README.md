@@ -22,7 +22,6 @@ Formato do arquivo do dados ENEM ano de 2011:
 
 **No arquivo de metadados (Dicionario_Microdados_ENEM_2011.xlsx) é colocado o início e fim das colunas para cada dado (arquivo posicional).**
 
-**Dentro do .zip disponibilizado pelo INEP existe o arquivo .xlsx com o dicionário de dados(metadados).**
 
 Definir as Perguntas
 ==================

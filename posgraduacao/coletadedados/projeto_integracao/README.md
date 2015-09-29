@@ -87,11 +87,11 @@ Respostas para as perguntas de forma textual:
 **Pergunta 1:**
    Resultado para a soma das notas por área do conhecimento dos **3.670.089** inscritos analisados:
    
-      * Ciências Humanas: 1724870640.95/3.670.089 = 469,9806 
-      * Ciências da Natureza: 1768483998.42/3.670.089 = 481,8640
-      * Linguagens e Códigos: 1925997050.21/3.670.089 = 524,7821 
-      * Matemática: 1913624930.41/3.670.089 = 521,4110
-      * Redação 2000938702.0/3.670.089 = 545,2016
+      * Ciências Humanas: 1.724.870.640,95/3.670.089 = 469,9806 
+      * Ciências da Natureza: 1.768.483.998,42/3.670.089 = 481,8640
+      * Linguagens e Códigos: 1.925.997.050,21/3.670.089 = 524,7821 
+      * Matemática: 1.913.624.930,41/3.670.089 = 521,4110
+      * Redação 2.000.938.702,0/3.670.089 = 545,2016
    
    De forma simples e objetiva conseguimos afirmar que a pior área foi ``Ciências Humanas`` e que a melhor foi ``Linguagens e Códigos``
    
@@ -102,17 +102,17 @@ Respostas para as perguntas de forma textual:
    
    * Para inscritos de escola pública
       * Quantidade de inscritos que estudaram somente em escola pública durante todo o ensino médio: 2.831.627 (realizaram o ENEM)
-      * Somatório das notas das provas de todas as área: 6977261965.37
-      * Média da nota para os inscritos da escola pública por prova: 492.809396532
-      * Média para as 5 área do conehcimento: 2464.04698266
+      * Somatório das notas das provas de todas as área: 697.7261.965,37
+      * Média da nota para os inscritos da escola pública por prova: 492,809396532
+      * Média para as 5 área do conehcimento: 2.464,04698266
    
    * Para inscritos de escola privada:
       * Quantidade de inscritos que estudaram somente em escola privada durante todo o ensino médio: 609.235 (realizaram o ENEM)
-      * Somatório das notas das provas de todas as área: 1766473618.72
-      * Média da nota para os inscritos da escola pública por prova: 579.898928565
-      * Média para as 5 área do conehcimento: 2899.49464282
+      * Somatório das notas das provas de todas as área: 1.766.473.618,72
+      * Média da nota para os inscritos da escola pública por prova: 579,898928565
+      * Média para as 5 área do conehcimento: 2.899,49464282
    
-Verificamos dessa forma que o ensino privado teve um aproveitamento maior que o ensino público em: 17.65422077922078%
+Verificamos dessa forma que o ensino privado teve um aproveitamento maior que o ensino público em: 17,65422077922078%
 
 Verificamos também que os inscritos são em sua maioria provinientes do ensino público.
 
@@ -120,24 +120,24 @@ Verificamos também que os inscritos são em sua maioria provinientes do ensino 
    Para responder essa pergunta realizamos o mesmo procedimento da 2 pergunta, soma das notas de todas as área do conhecimento dividido pela quantidade de inscritos. 
    
    * Para inscritos em que os pais não estudaram:
-      * Quantidade de inscritos: 262.862
-      * Somatório das notas das provas de todas as área: 612914247.3
-      * Média da nota para os inscritos por prova: 466.339179722
-      * Média da nota para as 5 área do conhecimento: 2331.69589861
+      * Quantidade de inscritos: 262,862
+      * Somatório das notas das provas de todas as área: 612.914.247,3
+      * Média da nota para os inscritos por prova: 466,339179722
+      * Média da nota para as 5 área do conhecimento: 2.331,69589861
       
    
    * Para inscritos em que os pais estudaram o ensino médio:
-      * Quantidade de inscritos: 714.933
-      * Somatório das notas das provas de todas as área: 1876766310.7
-      * Média da nota para os inscritos por prova: 525.018794964
-      * Média da nota para as 5 área do conhecimento: 2625.09397482
+      * Quantidade de inscritos: 714,933
+      * Somatório das notas das provas de todas as área: 187.6766.310,7
+      * Média da nota para os inscritos por prova: 525,018794964
+      * Média da nota para as 5 área do conhecimento: 2.625,09397482
 
    
    * Para inscritos em que os pais estudaram o ensino superior: 
-      * Quantidade de inscritos: 271.371
-      * Somatório das notas das provas de todas as área: 781606770.2
-      * Média da nota para os inscritos por prova: 576.042959786
-      * Média da nota para as 5 área do conhecimento: 2880.21479893
+      * Quantidade de inscritos: 271,371
+      * Somatório das notas das provas de todas as área: 781.606.770,2
+      * Média da nota para os inscritos por prova: 576,042959786
+      * Média da nota para as 5 área do conhecimento: 2.880,21479893
    
    Concluirmos que a escolaridade dos pais esta diretamente porporcional a nota dos inscritos no ENEM para o ano de 2011.
    

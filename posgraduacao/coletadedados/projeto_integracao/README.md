@@ -117,7 +117,7 @@ Verificamos dessa forma que o ensino privado teve um aproveitamento maior que o 
 Verificamos também que os inscritos são em sua maioria provinientes do ensino público.
 
 **Pergunta 3:**
-   Para responder essa pergunta realizamos o mesmo procedimento da 2 pergunta, soma das notas de todas as área do conhecimento dividido pela quantidade de inscritos. 
+   Para responder essa pergunta realizamos o mesmo procedimento da segunda pergunta, soma das notas de todas as área do conhecimento dividido pela quantidade de inscritos. 
    
    * Para inscritos em que os pais não estudaram:
       * Quantidade de inscritos: 262,862
@@ -139,7 +139,7 @@ Verificamos também que os inscritos são em sua maioria provinientes do ensino 
       * Média da nota para os inscritos por prova: 576,042959786
       * Média da nota para as 5 área do conhecimento: 2.880,21479893
    
-   Concluirmos que a escolaridade dos pais esta diretamente porporcional a nota dos inscritos no ENEM para o ano de 2011.
+   Concluirmos que a escolaridade dos pais esta diretamente porporcional a médiada nota dos inscritos no ENEM para o ano de 2011.
    
 
 Resposta para as perguntas em grafos:

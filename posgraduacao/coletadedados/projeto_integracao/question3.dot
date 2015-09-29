@@ -1,0 +1,26 @@
+strict digraph  {
+	graph [label="Grafo de avaliação da relação entre a escolaridade dos pais com a notas do inscritos no ENEM 2011"];
+	node [fontcolor="#000000",
+		shape=circle,
+		style=filled
+	];
+	"ENEM 2011" -> "Inscritos em que os 
+pais não estudaram"	 [label=composto];
+	"ENEM 2011" -> "Inscritos em que os 
+pais estudaram 
+o ensino médio(completo)"	 [label=composto];
+	"ENEM 2011" -> "Inscritos em que os 
+pais estudaram 
+o ensino superior(completo)"	 [label=composto];
+	"Inscritos em que os 
+pais não estudaram" -> 466.3391	 [fillcolor=red,
+		label=média];
+	"Inscritos em que os 
+pais estudaram 
+o ensino médio(completo)" -> 525.0187	 [fillcolor=red,
+		label=média];
+	"Inscritos em que os 
+pais estudaram 
+o ensino superior(completo)" -> 576.0429	 [fillcolor=green,
+		label=média];
+}

@@ -109,7 +109,7 @@ Respostas para as perguntas de forma textual:
    * Para inscritos de escola privada:
       * Quantidade de inscritos que estudaram somente em escola privada durante todo o ensino médio: 609.235 (realizaram o ENEM)
       * Somatório das notas das provas de todas as área: 1.766.473.618,72
-      * Média da nota para os inscritos da escola pública por prova: **579,898928565**
+      * Média da nota para os inscritos da escola privada por prova: **579,898928565**
       * Média para as 5 área do conehcimento: 2.899,49464282
    
 Verificamos dessa forma que o ensino privado teve um aproveitamento maior que o ensino público em: **17,65422077922078%**

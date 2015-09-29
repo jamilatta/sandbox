@@ -139,7 +139,7 @@ Verificamos também que os inscritos são em sua maioria provinientes do ensino 
       * Média da nota para os inscritos por prova: 576,042959786
       * Média da nota para as 5 área do conhecimento: 2.880,21479893
    
-   Concluirmos que a escolaridade dos pais esta diretamente porporcional a média da nota dos inscritos no ENEM para o ano de 2011.
+   Concluímos que a escolaridade dos pais esta diretamente porporcional a média da nota dos inscritos no ENEM para o ano de 2011.
    
 
 Resposta para as perguntas em grafos:

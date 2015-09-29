@@ -152,7 +152,7 @@ Grafo para pergunta 1:
 ![question1](https://raw.githubusercontent.com/jamilatta/sandbox/master/posgraduacao/coletadedados/projeto_integracao/question1.png)
 
 Grafo para pergunta 2:
-
+![question2](https://raw.githubusercontent.com/jamilatta/sandbox/master/posgraduacao/coletadedados/projeto_integracao/question2.png)
 
 Grafo para pergunta 3:
 

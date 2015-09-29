@@ -164,7 +164,7 @@ Conclusões:
 ==========
 
 * Quanto maior a quantidade de dados mais complicado para analisar;
-* Quanto maior a quantidade maior a capacidade de variação e inconsistência dos dados;
+* Quanto maior a quantidade de dados maior a capacidade de variação e inconsistências;
 * Mesmo com o dicionário de dados (metadados) ainda é possível que ocorra uma intepretação errada do que é cada dado;
 * O uso do grafo é possível para os dados, se somente se, os dados contém o item a ser utilizado no grafo;
 * Para o uso de uma base da dados e/ou um framework é importante que a dimensão do problema justifique a utilização.

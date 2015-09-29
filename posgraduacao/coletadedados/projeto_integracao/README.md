@@ -87,11 +87,11 @@ Respostas para as perguntas de forma textual:
 **Pergunta 1:**
    Resultado para a soma das notas por área do conhecimento dos **3.670.089** inscritos analisados:
    
-      * Ciências Humanas: 1.724.870.640,95/3.670.089 = **469,9806**
-      * Ciências da Natureza: 1.768.483.998,42/3.670.089 = **481,8640**
-      * Linguagens e Códigos: 1.925.997.050,21/3.670.089 = **524,7821** 
-      * Matemática: 1.913.624.930,41/3.670.089 = **521,4110**
-      * Redação 2.000.938.702,0/3.670.089 = **545,2016**
+      * Ciências Humanas: 1.724.870.640,95/3.670.089 = 469,9806
+      * Ciências da Natureza: 1.768.483.998,42/3.670.089 = 481,8640
+      * Linguagens e Códigos: 1.925.997.050,21/3.670.089 = 524,7821
+      * Matemática: 1.913.624.930,41/3.670.089 = 521,4110
+      * Redação 2.000.938.702,0/3.670.089 = 545,2016
    
    De forma simples e objetiva conseguimos afirmar que a pior área foi ``Ciências Humanas`` e que a melhor foi ``Linguagens e Códigos``
    

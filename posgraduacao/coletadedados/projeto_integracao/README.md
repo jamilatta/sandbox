@@ -38,7 +38,7 @@ Após a coleta de forma manual tivemos que definir três perguntas para os dados
 Análise dos dados em relação as perguntas:
 ==========================================
 
-* Para responder essa pergunta é preciso conhecer as áreas de conhecimentos avaliadas no ENEM, realizar uma soma das notas para cada área e dividir pelo total de inscritos.
+* Para responder a primeira pergunta é preciso conhecer as áreas de conhecimentos avaliadas no ENEM, realizar uma soma das notas para cada área e dividir pelo total de inscritos.
 
     * Áreas de conhecimentos avaliadas no ENEM:
         * Ciências Humanas (NU_NT_CN)

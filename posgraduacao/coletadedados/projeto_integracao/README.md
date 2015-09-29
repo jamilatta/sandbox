@@ -112,7 +112,7 @@ Respostas para as perguntas de forma textual:
       * Média da nota para os inscritos da escola pública por prova: **579,898928565**
       * Média para as 5 área do conehcimento: 2.899,49464282
    
-Verificamos dessa forma que o ensino privado teve um aproveitamento maior que o ensino público em: 17,65422077922078%
+Verificamos dessa forma que o ensino privado teve um aproveitamento maior que o ensino público em: **17,65422077922078%**
 
 Verificamos também que os inscritos são em sua maioria provinientes do ensino público.
 

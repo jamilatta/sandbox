@@ -122,21 +122,21 @@ Verificamos também que os inscritos são em sua maioria provinientes do ensino 
    * Para inscritos em que os pais não estudaram:
       * Quantidade de inscritos: 262,862
       * Somatório das notas das provas de todas as área: 612.914.247,3
-      * Média da nota para os inscritos por prova: 466,339179722
+      * Média da nota para os inscritos por prova: **466,339179722**
       * Média da nota para as 5 área do conhecimento: 2.331,69589861
       
    
    * Para inscritos em que os pais estudaram o ensino médio:
       * Quantidade de inscritos: 714,933
       * Somatório das notas das provas de todas as área: 187.6766.310,7
-      * Média da nota para os inscritos por prova: 525,018794964
+      * Média da nota para os inscritos por prova: **525,018794964**
       * Média da nota para as 5 área do conhecimento: 2.625,09397482
 
    
    * Para inscritos em que os pais estudaram o ensino superior: 
       * Quantidade de inscritos: 271,371
       * Somatório das notas das provas de todas as área: 781.606.770,2
-      * Média da nota para os inscritos por prova: 576,042959786
+      * Média da nota para os inscritos por prova: **576,042959786**
       * Média da nota para as 5 área do conhecimento: 2.880,21479893
    
    Concluímos que a escolaridade dos pais esta diretamente porporcional a média da nota dos inscritos no ENEM para o ano de 2011.
@@ -148,15 +148,15 @@ Resposta para as perguntas em grafos:
 Para responder as questões em grafos encontramos dificuldades, pois as perguntas utilizam médias que é uma informação não encontrada nos dados, portanto tivemos que computar essa métrica e depois pensarmos em gerar grafos para responder as perguntas:
 
 
-Grafo para pergunta 1:
+**Grafo para pergunta 1:**
 
 ![question1](https://raw.githubusercontent.com/jamilatta/sandbox/master/posgraduacao/coletadedados/projeto_integracao/question1.png)
 
-Grafo para pergunta 2:
+**Grafo para pergunta 2:**
 
 ![question2](https://raw.githubusercontent.com/jamilatta/sandbox/master/posgraduacao/coletadedados/projeto_integracao/question2.png)
 
-Grafo para pergunta 3:
+**Grafo para pergunta 3:**
 
 ![question3](https://raw.githubusercontent.com/jamilatta/sandbox/master/posgraduacao/coletadedados/projeto_integracao/question3.png)
 

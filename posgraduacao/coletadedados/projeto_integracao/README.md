@@ -48,7 +48,7 @@ Análise dos dados em relação as perguntas:
 
     **Dentre essas ainda existe a nota da redação: NU_NOTA_REDACAO**
 
-* Para responder a segunda pergunta é necessário realizar a soma das notas dos alunos que somente estudaram no ensino médio em escola pública e a soma das notas dos alunos que estudaram somente e escola particular.
+* Para responder a segunda pergunta é necessário realizar a soma das notas dos alunos que somente estudaram no ensino médio em escola pública e a soma das notas dos alunos que estudaram somente em escola particular.
 
 * É preciso pegar as notas dos inscritos em que os pais não estudaram, estudaram o ensino médio e os que estudaram ensino superiror.
 

@@ -41,8 +41,8 @@ Análise dos dados em relação as perguntas:
 * Para responder a primeira pergunta é preciso conhecer as áreas de conhecimentos avaliadas no ENEM, realizar uma soma das notas para cada área e dividir pelo total de inscritos.
 
     * Áreas de conhecimentos avaliadas no ENEM:
-        * Ciências Humanas (NU_NT_CN)
-        * Ciências da Natureza (NU_NT_CH)
+        * Ciências Humanas (NU_NT_CH)
+        * Ciências da Natureza (NU_NT_CN)
         * Linguagens e Códigos (NU_NT_LC)
         * Matemática (NU_NT_MT)
 

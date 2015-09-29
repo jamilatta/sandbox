@@ -75,7 +75,7 @@ Esse teste tinha como base avaliar o tempo que o C e o Python gastam para ler um
 * **Python 2.745 min**
 * **C 2.598 min**
 
-Considerando a facilidade de implementação descartamos o uso de Python para essa avaliação, com a justificativa que a melhoria no tempo de leitura do arquivo não era tão significativa quanto a facilidade da linguagem Python para a implementação.
+Considerando a facilidade de implementação descartamos o uso de C para essa avaliação, com a justificativa que a melhoria no tempo de leitura do arquivo não era tão significativa quanto a facilidade da linguagem Python para a implementação.
 
 Também descartarmos o uso de qualquer framework ou base de dados, já que acretidamos que uma arquivo que demora ~3 min para ser lido em uma máquina caseira/notebook não se enquadra no proposito da maioria desses frameworks.
 

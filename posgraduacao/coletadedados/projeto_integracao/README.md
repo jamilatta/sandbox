@@ -72,14 +72,16 @@ Realizamos um teste de benchmark entre uma linguagem de mais baixo nível com um
 
 Esse teste tinha como base avaliar o tempo que o C e o Python gastam para ler um arquivo de ~6 milhoes de linhas.
 
-* **Python 2,745 min**
-* **C 2,598 min**
+* **Python = 2,745 min**
+* **C = 2,598 min**
 
 Considerando a facilidade de implementação descartamos o uso de C para essa avaliação, com a justificativa que a melhoria no tempo de leitura do arquivo não era tão significativa quanto a facilidade da linguagem Python para a implementação.
 
 Também descartarmos o uso de qualquer framework ou base de dados, já que acretidamos que um arquivo que demora ~3 min para ser lido em uma máquina caseira/notebook não se enquadra no proposito da maioria desses frameworks.
 
 Considerando os itens acima, utilizamos apenas 2 scripts Python que chamamos de **transform.py** e **analysis.py** para respondermos as perguntas.
+
+Utilizamos para produzir os grafos um software para visualização de grafos de código aberto chamado Graphviz (www.graphviz.org), para facilita ainda mais utilizamos o **pygraphviz** como interface em Python. 
 
 Respostas para as perguntas de forma textual:
 ===========================================

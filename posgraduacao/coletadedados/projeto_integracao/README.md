@@ -72,8 +72,8 @@ Realizamos um teste de benchmark entre uma linguagem de mais baixo nível com um
 
 Esse teste tinha como base avaliar o tempo que o C e o Python gastam para ler um arquivo de ~6 milhoes de linhas.
 
-* **Python 2.745 min**
-* **C 2.598 min**
+* **Python 2,745 min**
+* **C 2,598 min**
 
 Considerando a facilidade de implementação descartamos o uso de C para essa avaliação, com a justificativa que a melhoria no tempo de leitura do arquivo não era tão significativa quanto a facilidade da linguagem Python para a implementação.
 

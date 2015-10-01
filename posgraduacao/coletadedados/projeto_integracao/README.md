@@ -72,8 +72,8 @@ Realizamos um teste de benchmark entre uma linguagem de mais baixo nível com um
 
 Esse teste tinha como base avaliar o tempo que o C e o Python gastam para ler um arquivo de ~6 milhoes de linhas.
 
-* **Python 2.745 min**
-* **C 2.598 min**
+* **Python = 2,745 min**
+* **C = 2,598 min**
 
 Considerando a facilidade de implementação descartamos o uso de C para essa avaliação, com a justificativa que a melhoria no tempo de leitura do arquivo não era tão significativa quanto a facilidade da linguagem Python para a implementação.
 
@@ -81,15 +81,17 @@ Também descartarmos o uso de qualquer framework ou base de dados, já que acret
 
 Considerando os itens acima, utilizamos apenas 2 scripts Python que chamamos de **transform.py** e **analysis.py** para respondermos as perguntas.
 
+Utilizamos para produzir os grafos um software para visualização de grafos de código aberto chamado Graphviz (www.graphviz.org), para facilita ainda mais utilizamos o **pygraphviz** como interface em Python. 
+
 Respostas para as perguntas de forma textual:
 ===========================================
 
 **Pergunta 1:**
    Resultado para a soma das notas por área do conhecimento dos **3.670.089** inscritos analisados:
    
-      * Ciências Humanas: 1.724.870.640,95/3.670.089 = 469,9806 
+      * Ciências Humanas: 1.724.870.640,95/3.670.089 = 469,9806
       * Ciências da Natureza: 1.768.483.998,42/3.670.089 = 481,8640
-      * Linguagens e Códigos: 1.925.997.050,21/3.670.089 = 524,7821 
+      * Linguagens e Códigos: 1.925.997.050,21/3.670.089 = 524,7821
       * Matemática: 1.913.624.930,41/3.670.089 = 521,4110
       * Redação 2.000.938.702,0/3.670.089 = 545,2016
    
@@ -103,16 +105,16 @@ Respostas para as perguntas de forma textual:
    * Para inscritos de escola pública
       * Quantidade de inscritos que estudaram somente em escola pública durante todo o ensino médio: 2.831.627 (realizaram o ENEM)
       * Somatório das notas das provas de todas as área: 697.7261.965,37
-      * Média da nota para os inscritos da escola pública por prova: 492,809396532
+      * Média da nota para os inscritos da escola pública por prova: **492,809396532**
       * Média para as 5 área do conehcimento: 2.464,04698266
    
    * Para inscritos de escola privada:
       * Quantidade de inscritos que estudaram somente em escola privada durante todo o ensino médio: 609.235 (realizaram o ENEM)
       * Somatório das notas das provas de todas as área: 1.766.473.618,72
-      * Média da nota para os inscritos da escola pública por prova: 579,898928565
+      * Média da nota para os inscritos da escola privada por prova: **579,898928565**
       * Média para as 5 área do conehcimento: 2.899,49464282
    
-Verificamos dessa forma que o ensino privado teve um aproveitamento maior que o ensino público em: 17,65422077922078%
+Verificamos dessa forma que o ensino privado teve um aproveitamento maior que o ensino público em: **17,65422077922078%**
 
 Verificamos também que os inscritos são em sua maioria provinientes do ensino público.
 
@@ -122,21 +124,21 @@ Verificamos também que os inscritos são em sua maioria provinientes do ensino 
    * Para inscritos em que os pais não estudaram:
       * Quantidade de inscritos: 262,862
       * Somatório das notas das provas de todas as área: 612.914.247,3
-      * Média da nota para os inscritos por prova: 466,339179722
+      * Média da nota para os inscritos por prova: **466,339179722**
       * Média da nota para as 5 área do conhecimento: 2.331,69589861
       
    
    * Para inscritos em que os pais estudaram o ensino médio:
       * Quantidade de inscritos: 714,933
       * Somatório das notas das provas de todas as área: 187.6766.310,7
-      * Média da nota para os inscritos por prova: 525,018794964
+      * Média da nota para os inscritos por prova: **525,018794964**
       * Média da nota para as 5 área do conhecimento: 2.625,09397482
 
    
    * Para inscritos em que os pais estudaram o ensino superior: 
       * Quantidade de inscritos: 271,371
       * Somatório das notas das provas de todas as área: 781.606.770,2
-      * Média da nota para os inscritos por prova: 576,042959786
+      * Média da nota para os inscritos por prova: **576,042959786**
       * Média da nota para as 5 área do conhecimento: 2.880,21479893
    
    Concluímos que a escolaridade dos pais esta diretamente porporcional a média da nota dos inscritos no ENEM para o ano de 2011.
@@ -148,15 +150,15 @@ Resposta para as perguntas em grafos:
 Para responder as questões em grafos encontramos dificuldades, pois as perguntas utilizam médias que é uma informação não encontrada nos dados, portanto tivemos que computar essa métrica e depois pensarmos em gerar grafos para responder as perguntas:
 
 
-Grafo para pergunta 1:
+**Grafo para pergunta 1:**
 
 ![question1](https://raw.githubusercontent.com/jamilatta/sandbox/master/posgraduacao/coletadedados/projeto_integracao/question1.png)
 
-Grafo para pergunta 2:
+**Grafo para pergunta 2:**
 
 ![question2](https://raw.githubusercontent.com/jamilatta/sandbox/master/posgraduacao/coletadedados/projeto_integracao/question2.png)
 
-Grafo para pergunta 3:
+**Grafo para pergunta 3:**
 
 ![question3](https://raw.githubusercontent.com/jamilatta/sandbox/master/posgraduacao/coletadedados/projeto_integracao/question3.png)
 
@@ -164,7 +166,7 @@ Conclusões:
 ==========
 
 * Quanto maior a quantidade de dados mais complicado para analisar;
-* Quanto maior a quantidade maior a capacidade de variação e inconsistência dos dados;
+* Quanto maior a quantidade de dados maior a capacidade de variação e inconsistências;
 * Mesmo com o dicionário de dados (metadados) ainda é possível que ocorra uma intepretação errada do que é cada dado;
 * O uso do grafo é possível para os dados, se somente se, os dados contém o item a ser utilizado no grafo;
 * Para o uso de uma base da dados e/ou um framework é importante que a dimensão do problema justifique a utilização.
